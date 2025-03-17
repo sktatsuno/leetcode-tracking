@@ -1,0 +1,2 @@
+- 3/14/25: 1st attempt did not pass all test cases 
+- 3/16/25: 2nd attempt did in 5 minutes and realized how to tell if there is not a majority element
