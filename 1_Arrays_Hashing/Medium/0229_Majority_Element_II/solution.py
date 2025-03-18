@@ -30,7 +30,8 @@ class Solution:
                 counter_1 -= 1
                 counter_2 -= 1
 
-        # Second Pass: Validate candidates
+        # Second Pass: Validate candidates because the potential candidates
+        # are not guaranteed to be majority
         counter_1, counter_2 = 0, 0
         for num in nums:
             if num == candidate_1:
