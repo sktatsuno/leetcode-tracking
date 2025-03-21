@@ -1,0 +1,3 @@
+- I added a lstrip and isdigit check to check for string integers. 
+- Simpler solution would've been checking for all the operations first and then else it's an integer since we were given constraints
+- But I feel like that approach could cause issues if extending the solution down the road. I guess all depends on your clarifying questions and answers
