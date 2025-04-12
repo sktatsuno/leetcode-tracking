@@ -17,7 +17,8 @@ class Solution:
         t = 0
         i = 0
 
-        while len(res) < len(task_list):
+        # while still going through task list and heap not empty
+        while i < len(task_list) or available_tasks:
             # heap is empty, tasks still to process
             if not available_tasks:
                 t = max(t, task_list[i][0])
